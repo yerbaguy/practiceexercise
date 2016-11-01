@@ -1,0 +1,11 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+_user_learning:
+  path: /learning
+  defaults: { _controller: AppBundle:Learning:learning }
+
+_user_wordstodb:
+  path: /wordstodb
+  defaults: { _controller: AppBundle:WordsToDb:wordsToDb }
